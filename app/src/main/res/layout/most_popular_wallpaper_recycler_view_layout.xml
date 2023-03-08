@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_220sdp"
+    android:layout_margin="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_12sdp"
+    app:cardBackgroundColor="#495057"
+    app:cardElevation="@dimen/_5sdp">
+    <ImageView
+        android:id="@+id/mostPopularWallpaperRecyclerViewImageView"
+        android:layout_width="@dimen/_112sdp"
+        android:layout_height="@dimen/_220sdp"
+        android:layout_gravity="fill"
+        android:src="@drawable/splash_image" />
+
+</androidx.cardview.widget.CardView>

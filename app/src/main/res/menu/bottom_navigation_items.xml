@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item-->
+<!--     android:id="@+id/likeBtn"-->
+<!--      android:title="Like"-->
+<!--        android:icon="@drawable/like_icon"-->
+
+<!--    />-->
+
+
+    <item
+        android:id="@+id/downloadBtn"
+        android:title="Download"
+        android:icon="@drawable/download_icon"
+        />
+
+
+    <item
+        android:id="@+id/setWallpaperBtn"
+        android:title="Set Wallpaper"
+        android:icon="@drawable/set_wallpaper_icon"
+        />
+
+
+    <item
+        android:id="@+id/shareWallpaperBtn"
+        android:title="Share Wallpaper"
+        android:icon="@drawable/ic_baseline_share_24"
+        />
+
+</menu>

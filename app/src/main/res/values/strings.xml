@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Wallpapers</string>
+    <string name="openDrawer">Open Navigation Drawer</string>
+    <string name="closeDrawer">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appId">ca-app-pub-2842016842086489~7107587415</string>
+    <string name="categoryBannerAdId">ca-app-pub-2842016842086489/8247185363</string>
+    <string name="recentBannerAdId">ca-app-pub-2842016842086489/4440652357</string>
+    <string name="randomBannerAdId">ca-app-pub-2842016842086489/5331062195</string>
+    <string name="mostPopularBannerAdId">ca-app-pub-2842016842086489/7503845680</string>
+    <string name="categoryActivityBannerAdId">ca-app-pub-2842016842086489/4921651046</string>
+    <string name="afterSplashInterstitialAdId">ca-app-pub-2842016842086489/6151175496</string>
+</resources>
