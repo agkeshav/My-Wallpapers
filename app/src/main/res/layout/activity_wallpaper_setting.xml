@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.WallpaperSettingActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:id="@+id/wallpaperSettingImageView"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/wallpaperCreditBtn"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_baseline_more_vert_24"
+        />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+       app:itemIconTint="@color/white"
+        app:itemIconSize="@dimen/_40ssp"
+        android:background="#0B0B0B"
+        android:backgroundTint="@color/black"
+        app:labelVisibilityMode="unlabeled"
+        android:id="@+id/bottomNavigationView"
+        app:itemRippleColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:menu="@menu/bottom_navigation_items"
+        android:layout_alignParentBottom="true"
+
+        />
+
+</RelativeLayout>
